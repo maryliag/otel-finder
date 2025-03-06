@@ -1,0 +1,19 @@
+{
+  "name": "otel-finder",
+  "version": "1.0.0",
+  "description": "Find issues from OpenTelemetry",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^4.2.1",
+    "dotenv": "^16.4.7",
+    "octokit": "^4.1.2"
+  }
+}
